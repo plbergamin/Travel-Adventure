@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Travel Adventure</div>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#newsletter">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Explore the World with Us</h1>
+        <p>Your adventure begins here</p>
+        <a href="#destinations" class="cta-button">Discover More</a>
+        <div class="testimonials">
+            <div class="testimonial active">
+                <p>"This was the best experience of my life!"</p>
+                <span>- John Doe</span>
+            </div>
+            <div class="testimonial">
+                <p>"An unforgettable adventure!"</p>
+                <span>- Jane Smith</span>
+            </div>
+            <div class="testimonial">
+                <p>"Absolutely breathtaking views!"</p>
+                <span>- Mike Johnson</span>
+            </div>
+        </div>
+    </section>
+
+        <!-- Featured destinations Section -->
+
+    <section id="destinations" class="section">
+        <h2>Featured Destinations</h2>
+        <div class="destination-cards">
+            <div class="card">
+                <img src="images/paris.jpg" alt="Eiffel Tower, Paris">
+                <h3>Paris, France</h3>
+                <p>The city of love, art, and fashion. Discover iconic landmarks like the Eiffel Tower, Louvre Museum, and the charming streets of Montmartre.</p>
+            </div>
+            <div class="card">
+                <img src="images/santorini.jpg" alt="Santorini, Greece">
+                <h3>Santorini, Greece</h3>
+                <p>Famous for its stunning sunsets, whitewashed buildings, and crystal-clear waters. Santorini offers a perfect mix of relaxation and adventure.</p>
+            </div>
+            <div class="card">
+                <img src="images/tokyo.jpg" alt="Tokyo, Japan">
+                <h3>Tokyo, Japan</h3>
+                <p>A bustling metropolis where tradition meets modernity. Explore ancient temples, futuristic skyscrapers, and world-class cuisine.</p>
+            </div>
+            <div class="card">
+                <img src="images/nyc.jpg" alt="Statue of Liberty, New York City">
+                <h3>New York City, USA</h3>
+                <p>The city that never sleeps. Experience the vibrant culture, world-famous landmarks, and endless entertainment options in NYC.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Adventure Packages Section -->
+    <section id="packages" class="section">
+        <h2>Adventure Packages</h2>
+        <div class="package-cards">
+            <div class="package-card active">
+                <div class="package-img" style="background-image: url('images/adventure1.jpg');"></div>
+                <div class="package-content">
+                    <h3>Safari Adventure</h3>
+                    <p>Explore the wilds of Africa on a guided safari tour. Witness the Big Five in their natural habitat.</p>
+                    <ul>
+                        <li>Guided by expert wildlife trackers</li>
+                        <li>Luxury accommodations in the heart of nature</li>
+                        <li>All-inclusive meals and transportation</li>
+                    </ul>
+                    <button class="cta-button">Find Out More</button>
+                </div>
+            </div>
+            <div class="package-card">
+                <div class="package-img" style="background-image: url('images/adventure2.jpg');"></div>
+                <div class="package-content">
+                    <h3>Mountain Trekking</h3>
+                    <p>Conquer the world's most famous peaks with our guided mountain trekking packages.</p>
+                    <ul>
+                        <li>Access to top-tier climbing equipment</li>
+                        <li>Guided by experienced mountaineers</li>
+                        <li>Stunning views from summit peaks</li>
+                    </ul>
+                    <button class="cta-button">Find Out More</button>
+                </div>
+            </div>
+            <div class="package-card">
+                <div class="package-img" style="background-image: url('images/adventure3.jpg');"></div>
+                <div class="package-content">
+                    <h3>Island Hopping</h3>
+                    <p>Experience the beauty of remote islands, pristine beaches, and crystal-clear waters.</p>
+                    <ul>
+                        <li>Private boat tours between islands</li>
+                        <li>Snorkeling in vibrant coral reefs</li>
+                        <li>Stay in luxurious beachfront resorts</li>
+                    </ul>
+                    <button class="cta-button">Find Out More</button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="gallery" class="section">
+        <h2>Travel Gallery</h2>
+        <div class="gallery-container">
+            <button class="arrow left-arrow">&#10094;</button>
+            <div class="gallery">
+                <img src="images/gallery1.jpg" alt="Beautiful beach" class="gallery-item">
+                <img src="images/gallery2.jpg" alt="Mountain view" class="gallery-item">
+                <img src="images/gallery3.jpg" alt="City skyline" class="gallery-item">
+                <img src="images/gallery4.jpg" alt="Desert landscape" class="gallery-item">
+                <img src="images/gallery5.jpg" alt="Forest trail" class="gallery-item">
+                <img src="images/gallery6.jpg" alt="Snowy mountains" class="gallery-item">
+            </div>
+            <button class="arrow right-arrow">&#10095;</button>
+        </div>
+    </section>
+    
+
+    <!-- Travel Blog -->    
+
+    <section id="blog" class="section">
+        <h2>Travel Blog</h2>
+        <div class="blog-cards">
+            <div class="blog-card">
+                <img src="images/blog1.jpg" alt="Blog Image 1">
+                <div class="blog-content">
+                    <h3>Exploring the Hidden Gems of Europe</h3>
+                    <p>Discover lesser-known places that offer breathtaking experiences.</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog2.jpg" alt="Blog Image 2">
+                <div class="blog-content">
+                    <h3>Top 10 Adventure Destinations</h3>
+                    <p>These places should be on every adventurer's bucket list.</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog3.jpg" alt="Blog Image 3">
+                <div class="blog-content">
+                    <h3>How to Travel Sustainably</h3>
+                    <p>Tips and tricks for reducing your carbon footprint while traveling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Newsletter Signup Section -->
+
+    <section id="newsletter" class="section">
+        <h2>Join Our Newsletter</h2>
+        <p>Stay updated with our latest travel deals and tips.</p>
+        <form id="newsletterForm">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p><strong>Address:</strong> 123 Adventure Lane, Dublin, Ireland</p>
+                <p><strong>Phone:</strong> +353 1 234 5678</p>
+                <p><strong>Email:</strong> info@traveladventure.ie</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Travel Adventure. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
